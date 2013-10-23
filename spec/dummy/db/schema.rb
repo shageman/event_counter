@@ -9,14 +9,14 @@
 # from scratch. The latter is a flawed and unsustainable approach (the more migrations
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
-# It's strongly recommended to check this file into your version control system.
+# It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130403021547) do
+ActiveRecord::Schema.define(version: 20130403021547) do
 
-  create_table "event_counter_counts", :force => true do |t|
+  create_table "event_counter_counts", force: true do |t|
     t.string  "object_identifier"
     t.string  "event_identifier"
-    t.integer "count",             :default => 0
+    t.integer "count",             default: 0
   end
 
 end
