@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    event_counter (0.0.2)
+    event_counter (0.0.3)
       rails (= 4.0.0)
 
 GEM
